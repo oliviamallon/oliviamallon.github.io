@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1585cba.css",
+    "main.js": "/static/js/main.8453619c.js",
+    "static/media/monopoly-temp.jpg": "/static/media/monopoly-temp.1d28fba8008fa4a36171.jpg",
+    "static/media/paint.jpg": "/static/media/paint.aa476584238038e0a39c.jpg",
+    "static/media/church-work.jpg": "/static/media/church-work.cdee96c93539ba1e1219.jpg",
+    "static/media/qcs-formal.jpg": "/static/media/qcs-formal.ed30a13ddbda73ec3172.jpg",
+    "static/media/credentials.jpg": "/static/media/credentials.41e8e44ca83e6014b808.jpg",
+    "static/media/cyber-watch.jpg": "/static/media/cyber-watch.55ebcea26044f27ef4d8.jpg",
+    "static/media/hub-calc.jpg": "/static/media/hub-calc.4c7424ff231134d84120.jpg",
+    "static/media/escape-room.jpg": "/static/media/escape-room.0470cc1a4d71b9d62878.jpg",
+    "static/media/sea.jpg": "/static/media/sea.bb01d91c6352aec1f578.jpg",
+    "static/media/nuremberg-train.jpg": "/static/media/nuremberg-train.c45df97c24ffca7a1d1f.jpg",
+    "index.html": "/index.html",
+    "main.e1585cba.css.map": "/static/css/main.e1585cba.css.map",
+    "main.8453619c.js.map": "/static/js/main.8453619c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1585cba.css",
+    "static/js/main.8453619c.js"
+  ]
+}
