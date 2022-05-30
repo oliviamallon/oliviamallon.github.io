@@ -1,0 +1,75 @@
+.company {
+  margin-bottom: 1%;
+}
+
+.workTitle {
+  padding: 0;
+  padding-top: 2%;
+}
+
+.jobCV {
+  width: 95%;
+  margin: auto;
+  background-color: white;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0.2ch;
+  margin: auto;
+}
+
+.jobBox {
+  padding: 4%;
+  width: 100%;
+  background-color: black;
+}
+
+.jobDate {
+  font-size: 1vw;
+  text-align: left;
+  margin-bottom: 1%;
+}
+
+.jobTitle {
+  font-size: 1vw;
+  text-align: left;
+}
+
+#jobDescrip {
+  list-style-type: circle;
+  padding-left: 4%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .jobCV {
+    grid-template-columns: 50% 50%;
+  }
+
+  .jobDate {
+    font-size: 1.8vw;
+  }
+  .jobTitle {
+    font-size: 1.8vw;
+  }
+
+  .company {
+    font-size: 2.7vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .jobCV {
+    grid-template-columns: 100%;
+  }
+
+  .jobDate {
+    font-size: 2.5vw;
+  }
+  .jobTitle {
+    font-size: 2.5vw;
+  }
+
+  .company {
+    font-size: 4vw;
+  }
+}

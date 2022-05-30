@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Press+Start+2P&family=Space+Grotesk:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: white;
+  background-color: black;
+  font-family: "Poppins", "sans-serif";
+}
+
+.home {
+  font-size: 5vw;
+  text-align: left;
+}
+
+.imageDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.profileImage {
+  width: 70%;
+}
+
+h1 {
+  font-family: "Poppins", "sans-serif";
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+h2 {
+  font-family: "Space Grotesk", sans-serif;
+  padding-top: 0;
+  margin-top: 0;
+  border-top: 0;
+  margin-bottom: 5%;
+  font-size: 1.5vw;
+}
+
+h3 {
+  font-size: 4vw;
+  padding-left: 6.5%;
+  padding-top: 4%;
+}
+
+.innerDiv {
+  padding: 20% 0 20% 0;
+  margin-left: 10%;
+}
+
+.highlight {
+  color: aquamarine;
+}
+
+.buttonStyle {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  font-family: "Poppins", "sans-serif";
+  font-weight: bold;
+  padding: 1% 3% 1% 3%;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.downloadStyle {
+  color: white;
+  text-decoration: none;
+  background-color: aliceblue;
+  border-color: aquamarine;
+  font-family: "Poppins", "sans-serif";
+  font-weight: bold;
+  padding: 1% 3% 1% 3%;
+}
+
+th {
+  font-size: 1.5vw;
+  padding: 0 0 0 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+table {
+  /* background-color: darkgreen; */
+  width: 100%;
+  font-weight: bold;
+}
+
+.emptyRow {
+  height: 20px;
+}
+
+.credentialImage {
+  width: 50%;
+}
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  width: 23%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.btns {
+  width: 90%;
+  height: 350px;
+  color: black;
+  font-weight: bold;
+
+  min-height: 5px;
+  max-height: 200px;
+
+  background-size: cover;
+  background-position: center;
+}
+
+#btn1 {
+  background-image: linear-gradient(rgba(134, 185, 255, 0.3), aquamarine),
+    url("./images/qcs-formal.jpg");
+}
+
+#btn2 {
+  background-image: linear-gradient(rgba(134, 185, 255, 0.3), aquamarine),
+    url("./images/nuremberg-train.jpg");
+}
+
+#btn3 {
+  background-image: linear-gradient(rgba(134, 185, 255, 0.3), aquamarine),
+    url("./images/cyber-watch.jpg");
+}
+
+.socials {
+  align-items: center;
+  margin: auto;
+  width: 40%;
+  padding: 2%;
+
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-gap: 0.5ch;
+  margin: auto;
+}
+
+.socialIcon {
+  margin: auto;
+}
+
+.portTitle {
+  text-align: center;
+}
+
+.socialTitle {
+  text-align: center;
+  padding-top: 4%;
+  font-weight: bold;
+}
+
+.aboutTitle {
+  margin: 0;
+  border-bottom: solid 1px white;
+
+  padding: 1%;
+  font-size: 2vw;
+
+  font-weight: bold;
+
+  margin-bottom: 1%;
+}
+
+.aboutDescip {
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  padding: 1%;
+}
+
+.aboutBox {
+  border-top: solid white 1px;
+  border-bottom: solid 1px white;
+  padding-bottom: 2%;
+}
+
+.aboutDetailsBox {
+  text-align: center;
+  padding-top: 4%;
+  width: 90%;
+  margin: auto;
+}
+
+.credBox {
+  display: grid;
+  grid-template-columns: 38% 58%;
+  grid-gap: 0ch;
+  margin: auto;
+  width: 100%;
+}
+
+th {
+  font-size: 2vw;
+}
+
+.coverBox {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1100px) {
+  h2 {
+    font-size: 2vw;
+  }
+
+  .aboutTitle {
+    font-size: 3vw;
+  }
+
+  .socials {
+    width: 60%;
+  }
+
+  .credBox {
+    grid-template-columns: 48% 48%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 3vw;
+  }
+
+  .aboutTitle {
+    font-size: 4vw;
+  }
+
+  .socials {
+    width: 100%;
+  }
+
+  th {
+    font-size: 3vw;
+  }
+
+  td {
+    font-size: 2.4vw;
+  }
+
+  .credentialImage {
+    width: 80%;
+    margin: auto;
+  }
+
+  .credBox {
+    grid-template-columns: 33% 63%;
+  }
+
+  .credTbl {
+    border-spacing: 5%;
+  }
+}
