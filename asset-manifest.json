@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed2a27b3.css",
-    "main.js": "/static/js/main.ce397a47.js",
+    "main.css": "/static/css/main.e2ccba5e.css",
+    "main.js": "/static/js/main.6bddca40.js",
     "static/media/monopoly-temp.jpg": "/static/media/monopoly-temp.1d28fba8008fa4a36171.jpg",
     "static/media/paint.jpg": "/static/media/paint.aa476584238038e0a39c.jpg",
     "static/media/church-work.jpg": "/static/media/church-work.cdee96c93539ba1e1219.jpg",
@@ -14,11 +14,11 @@
     "static/media/sea.jpg": "/static/media/sea.bb01d91c6352aec1f578.jpg",
     "static/media/nuremberg-train.jpg": "/static/media/nuremberg-train.c45df97c24ffca7a1d1f.jpg",
     "index.html": "/index.html",
-    "main.ed2a27b3.css.map": "/static/css/main.ed2a27b3.css.map",
-    "main.ce397a47.js.map": "/static/js/main.ce397a47.js.map"
+    "main.e2ccba5e.css.map": "/static/css/main.e2ccba5e.css.map",
+    "main.6bddca40.js.map": "/static/js/main.6bddca40.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed2a27b3.css",
-    "static/js/main.ce397a47.js"
+    "static/css/main.e2ccba5e.css",
+    "static/js/main.6bddca40.js"
   ]
 }
