@@ -12,6 +12,10 @@
   overflow: auto;
 }
 
+.navMobileBtn {
+  display: none;
+}
+
 @media only screen and (max-width: 1100px) {
   .navLink {
     float: left;
@@ -25,11 +29,12 @@
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
 @media screen and (max-width: 600px) {
-  .navLink {
-    float: none;
+  .navMobileBtn {
     display: block;
-    width: 100%;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
-    font-size: 2.5vw;
+    padding: 2%;
+  }
+
+  #navMain {
+    display: none;
   }
 }

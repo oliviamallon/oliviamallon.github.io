@@ -48,6 +48,7 @@
   .jobDate {
     font-size: 1.8vw;
   }
+
   .jobTitle {
     font-size: 1.8vw;
   }
@@ -60,16 +61,23 @@
 @media only screen and (max-width: 600px) {
   .jobCV {
     grid-template-columns: 100%;
+    background-color: black;
   }
 
   .jobDate {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
   .jobTitle {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
 
   .company {
-    font-size: 4vw;
+    border-top: solid white 1px;
+    padding-top: 3%;
+    font-size: 5vw;
+  }
+
+  #jobDescrip {
+    font-size: 3vw;
   }
 }

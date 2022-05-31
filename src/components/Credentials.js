@@ -6,7 +6,6 @@ export default function Credentials() {
   return (
     <>
       <h3>Credentials</h3>
-
       <div className={styles.credBox}>
         <div>
           <div>
@@ -49,7 +48,7 @@ export default function Credentials() {
               <td>GCSEs: 6 A*&#x27;s , 5 A&#x27;s</td>
             </tr>
             <tr className={styles.emptyRow}></tr>
-            <tr>
+            <tr className={styles.mobileLine}>
               <th className={styles.highlight} rowspan="2">
                 Languages
               </th>

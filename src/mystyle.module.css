@@ -224,6 +224,30 @@ th {
   width: 100%;
 }
 
+.coverMobile {
+  grid-template-columns: 100%;
+
+  display: none;
+}
+
+.imageDivMbl {
+  width: 50%;
+  margin: auto;
+}
+
+.profileImageMbl {
+  border-radius: 100%;
+}
+
+.innerDivMbl {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.homeMbl {
+  font-size: 6vw;
+}
+
 @media only screen and (max-width: 1100px) {
   h2 {
     font-size: 2vw;
@@ -256,23 +280,40 @@ th {
   }
 
   th {
-    font-size: 3vw;
+    font-size: 5vw;
   }
 
   td {
-    font-size: 2.4vw;
+    font-size: 3.5vw;
   }
 
   .credentialImage {
-    width: 80%;
+    width: 50%;
     margin: auto;
+    padding-bottom: 5%;
   }
 
   .credBox {
-    grid-template-columns: 33% 63%;
+    grid-template-columns: 100%;
   }
 
   .credTbl {
     border-spacing: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+  }
+
+  .coverMobile {
+    display: grid;
+  }
+
+  .coverBox {
+    display: none;
+  }
+
+  h3 {
+    font-size: 6vw;
+    text-align: center;
   }
 }

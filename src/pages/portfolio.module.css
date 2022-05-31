@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.container {
+.containerMain {
   margin: auto;
   width: 90%;
 }
@@ -88,6 +88,10 @@
   content: url("../images/monopoly-temp.jpg");
 }
 
+.containerMobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1100px) {
   .portGrid {
     display: grid;
@@ -107,7 +111,15 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
+  .containerMobile {
+    display: block;
+  }
+
+  .containerMain {
+    display: none;
+  }
+
   .ptDesp {
     font-size: 2vw;
   }
@@ -118,5 +130,24 @@
 
   .imgDivPort {
     height: 200px;
+  }
+
+  .imgDivPortMob {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .buttonPortMob {
+    border: solid 1px white;
+    border-radius: 30px;
+    padding: 2%;
+    margin-top: 5%;
+  }
+
+  .ptMob {
+    text-align: center;
+    padding-bottom: 5%;
+    border-bottom: solid white 1px;
   }
 }
