@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Home = () => (
   <section className="flex flex-col items-center text-center px-6 mt-20">
     <img
-      src="../images/profile-photo.jpg"
+      src="/images/profile-photo.jpg"
       alt="Profile"
       className="w-40 h-40 rounded-full object-cover shadow-lg mb-6 border-4 border-blue-400"
     />
