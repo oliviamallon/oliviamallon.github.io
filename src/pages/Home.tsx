@@ -17,6 +17,8 @@ const Home = () => (
     <motion.a
       href="/assets/OliviaMallonCV.pdf"
       download
+      target="_blank"
+      rel="noopener noreferrer"
       className="mt-8 inline-block px-6 py-3 bg-gradient-to-r from-green-400 to-blue-500 text-white font-semibold rounded-xl shadow hover:opacity-90 transition"
       whileHover={{
         scale: [null, 1.1, 1.6],
