@@ -15,7 +15,7 @@ const Home = () => (
     </p>
 
     <motion.a
-      href="/assets/OliviaMallonCV.pdf"
+      href="/OliviaMallonCV.pdf"
       download
       target="_blank"
       rel="noopener noreferrer"
